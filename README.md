@@ -26,8 +26,11 @@ We build an automated **Glaucoma (GON) detection pipeline** using retinal fundus
 Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnosed until irreversible vision loss occurs. Our model offers a low-cost, scalable screening tool that can bring hope to patients in regions lacking specialist care.
 
 ---
+
 ## 📓 View Notebook
-👉 [Click here to view the notebook][(https://nbviewer.org/github/MuzaffarIshmurotov/IDSC2026-Glaucoma-Detection/blob/main/Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb)](https://colab.research.google.com/drive/1FcfKYtLww3TXgD23BF1VNaXfZy1M47R-?usp=sharing)
+👉 [Click here to view on Google Colab](https://colab.research.google.com/drive/1FcfKYtLww3TXgD23BF1VNaXfZy1M47R-?usp=sharing)
+
+---
 
 ## 🎯 Task
 
@@ -99,7 +102,7 @@ This reduces overconfident predictions on low-quality fundus images.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/IDSC2026-Glaucoma-Detection.git
+git clone https://github.com/MuzaffarIshmurotov/IDSC2026-Glaucoma-Detection.git
 cd IDSC2026-Glaucoma-Detection
 ```
 
@@ -114,7 +117,7 @@ wget -r -N -c -np https://physionet.org/files/hillel-yaffe-glaucoma-dataset/1.0.
 ```
 
 ### 4. Run the notebook
-Open `IDSC2026_Glaucoma_Detection.ipynb` in Google Colab or Jupyter Notebook and run all cells.
+Open `Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb` in Google Colab or Jupyter Notebook and run all cells.
 
 > ⚡ **Recommended:** Use Google Colab with GPU runtime (Runtime → Change runtime type → T4 GPU)
 
@@ -124,9 +127,9 @@ Open `IDSC2026_Glaucoma_Detection.ipynb` in Google Colab or Jupyter Notebook and
 
 ```
 IDSC2026-Glaucoma-Detection/
-├── IDSC2026_Glaucoma_Detection.ipynb   # Main notebook (full pipeline)
-├── requirements.txt                     # Python dependencies
-└── README.md                            # This file
+├── Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb  # Main notebook
+├── requirements.txt                    # Python dependencies
+└── README.md                           # This file
 ```
 
 ---
