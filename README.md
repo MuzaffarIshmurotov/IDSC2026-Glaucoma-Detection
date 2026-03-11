@@ -27,7 +27,7 @@ Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnos
 
 ---
 ## 📓 View Notebook
-👉 [Click here to view the notebook](https://nbviewer.org/github/MuzaffarIshmurotov/IDSC2026-Glaucoma-Detection/blob/main/Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb)
+👉 [Click here to view the notebook][(https://nbviewer.org/github/MuzaffarIshmurotov/IDSC2026-Glaucoma-Detection/blob/main/Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb)](https://colab.research.google.com/drive/1FcfKYtLww3TXgD23BF1VNaXfZy1M47R-?usp=sharing)
 
 ## 🎯 Task
 
