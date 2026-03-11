@@ -26,6 +26,8 @@ We build an automated **Glaucoma (GON) detection pipeline** using retinal fundus
 Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnosed until irreversible vision loss occurs. Our model offers a low-cost, scalable screening tool that can bring hope to patients in regions lacking specialist care.
 
 ---
+## 📓 View Notebook
+👉 [Click here to view the notebook](https://nbviewer.org/github/MuzaffarIshmurotov/IDSC2026-Glaucoma-Detection/blob/main/Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb)
 
 ## 🎯 Task
 
