@@ -28,7 +28,7 @@ Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnos
 ---
 
 ## 📓 View Notebook
-👉 [Click here to view on Google Colab](https://colab.research.google.com/drive/1FcfKYtLww3TXgD23BF1VNaXfZy1M47R-?usp=sharing)
+👉 [Click here to view on Google Colab]https://colab.research.google.com/drive/1Yziqt3xUePrqJiSPNVW8atQnz5-Sn8ZD?usp=sharing
 
 ---
 
