@@ -28,7 +28,7 @@ Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnos
 ---
 
 ## 📓 View Notebook
-👉 [Click here to view on Google Colab]https://colab.research.google.com/drive/1Yziqt3xUePrqJiSPNVW8atQnz5-Sn8ZD?usp=sharing
+👉 [Click here to view on Google Colab](https://colab.research.google.com/drive/1Yziqt3xUePrqJiSPNVW8atQnz5-Sn8ZD?usp=sharing)
 
 ---
 
@@ -50,6 +50,7 @@ Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnos
 | GON+ (glaucoma) | 548 (73.4%) |
 | GON- (healthy) | 199 (26.6%) |
 | Patients | 288 |
+| After quality filter (≥5) | 618 images, 260 patients |
 | Format | JPG + Labels.csv |
 | Quality scores | Included (1–10) |
 
@@ -60,6 +61,8 @@ Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnos
 ## 🧠 Methodology
 
 - **Model:** EfficientNet-B3 (pretrained on ImageNet, transfer learning)
+- **Split:** Patient-level train/val/test split — no data leakage
+- **Quality Filter:** Images with quality score < 5 removed (618 usable images)
 - **Loss:** Weighted Cross-Entropy (handles 73/27 class imbalance)
 - **Augmentation:** Random flips, rotation, color jitter
 - **Innovation:** Quality-aware confidence adjustment using FundusQ-Net scores
@@ -72,13 +75,16 @@ Glaucoma affects **64.3 million people worldwide**, with ~50% of cases undiagnos
 
 | Metric | Value |
 |--------|-------|
-| Test Accuracy | **93.81%** |
-| AUC-ROC | **0.9259** |
-| GON+ Recall (Sensitivity) | **95%** |
-| GON+ Precision | 96% |
-| GON- Recall (Specificity) | 90% |
-| Macro F1 | 0.92 |
-| Weighted F1 | 0.94 |
+| Test images | 85 |
+| Test Accuracy | **89.41%** |
+| AUC-ROC | **0.9707** |
+| GON+ Recall (Sensitivity) | **90.74%** |
+| GON+ Precision | 92.5% |
+| GON- Recall (Specificity) | 87.10% |
+| Macro F1 | 0.887 |
+| Weighted F1 | 0.895 |
+
+> ⚠️ Results obtained under **patient-level split** to prevent data leakage — more honest and clinically valid than image-level splits.
 
 ---
 
@@ -117,7 +123,7 @@ wget -r -N -c -np https://physionet.org/files/hillel-yaffe-glaucoma-dataset/1.0.
 ```
 
 ### 4. Run the notebook
-Open `Hillel_Yaffe_Glaucoma_Dataset_(HYGD)_A_Gold_Standard_Annotated_Fundus_Dataset_for_Glaucoma_Detection.ipynb` in Google Colab or Jupyter Notebook and run all cells.
+Open the notebook in Google Colab and run all cells.
 
 > ⚡ **Recommended:** Use Google Colab with GPU runtime (Runtime → Change runtime type → T4 GPU)
 
